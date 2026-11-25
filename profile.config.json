@@ -1,69 +1,93 @@
 {
   "$schema": "./profile.schema.json",
   "profile": {
-    "name": "Your Name",
-    "username": "yourusername",
-    "headline": "AI Engineer & Product Builder",
-    "affiliation": "Your University or Company",
-    "location": "City, Country",
-    "status": "Learning / Building / Shipping",
+    "name": "VΛNITAS",
+    "username": "lazy-arcanist",
+    "headline": "Student Dev | AI, Web, Cybersecurity & Linux",
+    "affiliation": "SMK Telkom Malang",
+    "location": "Indonesia",
+    "status": "Student Developer",
     "about": [
-      "I build practical systems at the intersection of artificial intelligence, software engineering, and products people can trust.",
-      "My work combines technical exploration with a builder mindset: understand the problem, test the system, and share what actually works."
+      "A student developer exploring the intersection of artificial intelligence, web development, and Linux customization.",
+      "I build practical digital experiences and experiment with ideas that connect technology, creativity, and intelligent systems."
     ]
   },
   "research": {
-    "primary": "AI Agents",
-    "direction": "Reliable autonomous systems",
-    "themes": "Tool use / evaluation / human control",
-    "narrative": "I am interested in systems that can observe state, use tools, evaluate outcomes, and take bounded actions with clear evidence and human oversight."
+    "primary": "Artificial Intelligence",
+    "direction": "Practical digital experiences",
+    "themes": "AI / search / web / tools / Linux",
+    "narrative": "I explore how artificial intelligence, web development, developer tools, and Linux customization can connect into practical digital experiences and intelligent systems."
   },
   "focus": [
     {
-      "name": "AI Agents",
-      "description": "Autonomous workflows, tool use, evaluation, and reliable agent behavior."
+      "name": "AI Applications",
+      "description": "Exploring practical applications that connect AI capabilities with useful digital experiences."
     },
     {
-      "name": "Applied AI",
-      "description": "Turning model capabilities into useful and testable software systems."
+      "name": "Intelligent Search",
+      "description": "Experimenting with search systems that bring information from multiple sources into one workspace."
     },
     {
-      "name": "Developer Tools",
-      "description": "Better workflows for building, testing, and operating modern software."
+      "name": "Web Development",
+      "description": "Building modern web experiences with TypeScript, React, Next.js, and Tailwind CSS."
+    },
+    {
+      "name": "Developer Productivity",
+      "description": "Exploring tools and workflows that support more effective software development."
+    },
+    {
+      "name": "Linux Customization",
+      "description": "Personalizing Linux environments, including Arch Linux, around individual workflows."
+    },
+    {
+      "name": "Cybersecurity",
+      "description": "Exploring cybersecurity alongside web development, AI, and Linux systems."
     }
   ],
   "projects": [
     {
-      "name": "Project One",
-      "url": "https://github.com/yourusername/project-one",
+      "name": "Bibliotheca",
+      "url": "",
       "homepage": "",
-      "focus": "Primary project focus",
-      "summary": "A concise explanation of what the project does and why it matters.",
-      "heroLabel": "Primary build"
+      "focus": "Knowledge organization",
+      "summary": "A private knowledge library for organizing and accessing curated digital resources.",
+      "heroLabel": "Knowledge library"
     },
     {
-      "name": "Project Two",
-      "url": "https://github.com/yourusername/project-two",
+      "name": "Universal Search",
+      "url": "",
       "homepage": "",
-      "focus": "Secondary project focus",
-      "summary": "A second project that supports the professional direction of this profile.",
-      "heroLabel": "Active system"
+      "focus": "Intelligent search systems",
+      "summary": "Universal Search Workspace is an experimental concept for a system-wide search interface that brings information from multiple sources into one workspace.",
+      "heroLabel": "Unified search concept"
+    },
+    {
+      "name": "Mind Quest",
+      "url": "",
+      "homepage": "",
+      "focus": "Educational games",
+      "summary": "An educational game concept focused on logic, reasoning, and problem-solving.",
+      "heroLabel": "Educational game"
     }
   ],
   "techStack": [
     "TypeScript",
+    "JavaScript",
+    "React",
     "Next.js",
-    "Python",
-    "PostgreSQL",
-    "Playwright"
+    "Tailwind CSS",
+    "Supabase",
+    "Git",
+    "Linux",
+    "Arch Linux"
   ],
   "links": [
     {
       "label": "GitHub",
-      "value": "yourusername",
-      "url": "https://github.com/yourusername",
+      "value": "lazy-arcanist",
+      "url": "https://github.com/lazy-arcanist",
       "logo": "github",
-      "color": "0B1220"
+      "color": "0F766E"
     }
   ],
   "activity": {
@@ -71,7 +95,7 @@
     "limit": 6
   },
   "appearance": {
-    "palette": "signal"
+    "palette": "ocean"
   },
-  "footer": "Building thoughtful systems and sharing what works."
+  "footer": "Exploring ideas and building practical digital experiences."
 }

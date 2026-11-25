@@ -34,7 +34,8 @@ function renderProjects(projects) {
     "| --- | --- | --- |",
     ...projects.map((project) => {
       const homepage = project.homepage ? ` [Live](${project.homepage})` : "";
-      return `| [**${escapeCell(project.name)}**](${project.url}) | ${escapeCell(project.focus)} | ${escapeCell(project.summary)}${homepage} |`;
+      const name = project.url ? `[**${escapeCell(project.name)}**](${project.url})` : `**${escapeCell(project.name)}**`;
+      return `| ${name} | ${escapeCell(project.focus)} | ${escapeCell(project.summary)}${homepage} |`;
     })
   ].join("\n");
 }

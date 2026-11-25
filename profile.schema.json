@@ -57,10 +57,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["name", "url", "focus", "summary", "heroLabel"],
+        "required": ["name", "focus", "summary", "heroLabel"],
         "properties": {
           "name": { "type": "string", "minLength": 2, "maxLength": 18 },
-          "url": { "type": "string", "format": "uri" },
+          "url": { "oneOf": [{ "type": "string", "format": "uri" }, { "const": "" }] },
           "homepage": { "type": "string" },
           "focus": { "type": "string", "minLength": 2, "maxLength": 44 },
           "summary": { "type": "string", "minLength": 10, "maxLength": 220 },
